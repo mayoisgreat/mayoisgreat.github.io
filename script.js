@@ -7,7 +7,7 @@ var song;
 
 function preload(){
   yaxa = loadImage('https://i.imgur.com/WEp6Zde.png');
-  //song = loadSound('konga.mp3');
+  song = loadSound('konga.mp3');
 }
 
 function windowResized(){
@@ -16,7 +16,7 @@ function windowResized(){
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  //song.play();
+  song.play();
   yaxa1 = new Yaxa;
   yaxa2 = new Yaxa;
   yaxa3 = new Yaxa;
